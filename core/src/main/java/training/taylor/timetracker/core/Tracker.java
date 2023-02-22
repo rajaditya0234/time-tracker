@@ -11,7 +11,7 @@ public class Tracker {
     @Autowired
     private List<TimeEntry> entries;
 
-    public void add(TimeEntry entry) {
+   // public void add(TimeEntry entry) {
         entries.add(entry);
     }
 
